@@ -12,3 +12,15 @@ if(gap<=2){
 else{
     console.log('not perfect match');
 }
+
+const cgpa = 3.93;
+const result2 = Math.round(cgpa);
+console.log(result2);
+const result3 = Math.ceil(cgpa);
+console.log(result3);
+const result4 = Math.floor(cgpa);
+console.log(result4);
+
+// random 
+const math = Math.round(Math.random()*10);
+console.log(math);
