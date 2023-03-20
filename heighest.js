@@ -1,5 +1,5 @@
 function lowestInArray(numbers){
-    let heighestNumber =[0];
+    let heighestNumber =numbers[0];
 for(let i=0; i<numbers.length; i++){
     const index = i;
     const element = numbers[index];
